@@ -1,0 +1,10 @@
+.btn{
+    color: rgb(9, 0, 0);
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: rgb(12, 206, 231);
+    transition: all 0.2s ease;
+}
+.btn:active{
+    transform: scale(0.96);
+}

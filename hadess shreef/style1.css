@@ -1,0 +1,48 @@
+.bdy{
+    background-color: aqua;
+}
+.pic{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid #fff;
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.pic img:hover{
+    transform: scale(1.3);
+    filter: grayscale(0%);
+}
+.h1{
+    font-size: 65px;
+}
+.h5{
+    font-size: 30px;
+}
+.h4{
+    font-size:40px ;
+}
+button{
+    width: 50%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+}
+
+button:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.5s ease;
+}
